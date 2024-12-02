@@ -1,0 +1,13 @@
+discord-webhook-manager/
+├── configs/
+│   ├── event-schedule.js
+│   ├── point-system.js
+│   └── staff-structure.js
+├── node_modules/
+│   └── node-fetch/
+├── .env
+├── .gitignore
+├── package.json
+├── README.md
+├── README.en.md
+└── webhook.js
