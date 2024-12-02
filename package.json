@@ -9,7 +9,10 @@
   "scripts": {
     "start": "node webhook.js",
     "staff": "node webhook.js staff-structure",
-    "points": "node webhook.js point-system",
+    "points": "npm run points:1 && npm run points:2 && npm run points:3",
+    "points:1": "node webhook.js point-system-1",
+    "points:2": "node webhook.js point-system-2",
+    "points:3": "node webhook.js point-system-3",
     "events": "node webhook.js event-schedule"
   }
 }
