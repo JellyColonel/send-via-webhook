@@ -103,7 +103,8 @@ import("node-fetch").then(({ default: fetch }) => {
         const lastEmbed = this.embeds[this.embeds.length - 1];
         lastEmbed.footer = {
           text: footerText,
-          icon_url: footerIconUrl,
+          // Use config footerImage if provided, otherwise use passed iconUrl
+          icon_url: this.config.footerImage || footerIconUrl,
         };
         lastEmbed.timestamp = new Date().toISOString();
       }

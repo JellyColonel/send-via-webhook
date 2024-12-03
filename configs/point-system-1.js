@@ -2,13 +2,14 @@
 module.exports = {
   name: "Point System",
   webhookUrl:
-    "https://discord.com/api/webhooks/1311249041706975232/OR9FZ_F562ZPSYVzUpeUOI6FkNRKgjl2RabXAoN_QzTUNPzFge4FuFAn8Eoy9O_D_PAW",
+    "https://discord.com/api/webhooks/1300507554539110471/MslfS6GSWY4H-VEhf9dET4HLfejyEQHFw3--Jtq5vCK4kyTO2BLBW3ssvaHwJdVNdmYO",
   webhookConfig: {
     name: "Секретать EMS",
     avatarUrl: "https://i.imgur.com/3tHBIle.jpeg",
   },
   messageTitle: "",
   footer: "for EMS by Brian (ds: jellycolonel)",
+  footerImage: "https://i.imgur.com/fV3lfrO.jpeg",
   categories: {
     commonPromotionSystem: {
       title:
